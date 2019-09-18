@@ -45,3 +45,11 @@ animals("l")
 animals("m")
 animals("n")
 animals("o")
+
+#Script 1 - Object Data Types
+l=1:10 #integer
+m="Exam" #character
+n=double(length = 3) #double-numeric
+o=as.factor(c("light","heavy")) #factor w/ two levels
+
+
