@@ -1,4 +1,4 @@
-#Script 1
+#Script 1 - Operators
 a = seq(from = 5, to=14, by=1)
 b=a[1]
 c=a[7]
@@ -29,4 +29,19 @@ h;i;j
 0/0 #nan = Not a number
 k=NA #Object with no value assigned
 
+#Script 1 - Conditional Statement
 
+animals=function(x){
+  if(x=="l")
+    "squid"
+  else if(x=="m")
+    'elephant'
+  else if(x=="n")
+    'kangaroo'
+  else if(x=="o")
+    'komodo dragon'
+}
+animals("l")
+animals("m")
+animals("n")
+animals("o")
