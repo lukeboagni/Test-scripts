@@ -52,4 +52,10 @@ m="Exam" #character
 n=double(length = 3) #double-numeric
 o=as.factor(c("light","heavy")) #factor w/ two levels
 
+#Script 1 - Data Storage Stuctures
+p = array(data=1:24, dim = c(3,4,2))
+q = matrix(data = 1:10,nrow = 5,ncol = 2,)
+#a matrix consists of 1 or 2 dimensions, where an array can have more than 2
 
+r=q[4,1]
+s=p[2,2,2]
